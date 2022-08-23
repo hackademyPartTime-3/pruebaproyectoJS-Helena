@@ -1,0 +1,243 @@
+
+*{
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6, .special_letter{
+    font-family: 'Fauna One', serif;
+    color: rgba(236, 220, 73, 0.925);
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    padding: 1%;
+    z-index: 1;
+    background-image: linear-gradient(#031f5a, #0e58f9a8);
+    transition: 0.5s;
+}
+#logo{
+    transition: 0.5s;
+     opacity: 0; 
+    margin-top: 25px;
+    margin-left: 5%;
+    color: rgb(247, 177, 107);
+}
+.loginRegist{
+    opacity: 0; 
+    transition: 0.5s;
+}
+
+.menu_items{
+    position: fixed;
+    bottom: 0;
+    left: 3%;
+    padding: 3%;
+    z-index: 1;
+    color: rgb(247, 177, 107);
+    transition: 0.5s;
+    opacity: 0;
+}
+
+.relleno{
+    height:0px;
+    padding: 0;
+    background-image: repeating-linear-gradient(0deg,white,blue 50%,white);
+}
+.bg-main{
+    width: 100%;
+    height:115vh;
+    background-image:radial-gradient(transparent 45%, #2f6bf5fa,#0e58f9cb), url(./img/f3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  color: rgb(247, 210, 155);
+  padding-top: 100px;
+
+}
+main{
+    background-image: radial-gradient(rgb(226, 210, 198),#0e58f9c6,#0e58f9f2);
+   
+}
+.titulo{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+    opacity: 0;
+}
+
+.subtitulo{
+    position: absolute;
+    top: 45%;
+    left: 6%;
+    opacity: 0;
+   
+}
+#loginAside{
+    height: 100vh;
+    width: 25%;
+    background-color: rgba(209, 228, 245, 0.458);
+    backdrop-filter: blur(20px);
+    position:fixed ;
+    z-index: 20;
+    right: -100%;
+    transition: 0.7s ease-in-out;
+    
+}
+#registerAside{
+    height: 100vh;
+    width: 25%;
+    background-color: rgba(209, 228, 245, 0.458);
+    backdrop-filter: blur(20px);
+    position:fixed ;
+    z-index: 20;
+    right: -100%;
+    transition: 0.7s ease-in-out;
+}
+.active-login{
+    right: 0% !important;
+}
+.active-register{
+    right: 0% !important;
+}
+.coment{
+    background-color: #0e58f9cb;
+}
+.images{
+    background-image:linear-gradient( #0e58f9cb,  rgba(242, 174, 105, 0.742));
+}
+.bg-cover{
+    width: 100%;
+    height: 70vh;
+    background-image:radial-gradient(transparent 40%, rgba(242, 174, 105, 0.742),rgba(242, 174, 105, 0.742) ) ,url(./img/f7.jpg);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scroll_cambio #logo{
+    color:#ca38a5;
+    left: 1%;
+    padding:1%;
+    background-image: url(./img/lotus_1.png);
+   background-repeat: no-repeat;
+   visibility: visible;
+
+}
+.scroll_cambio .cambio-color
+
+.scroll_cambio .divnav-color{
+    color:#ca38a5;
+
+}
+.scroll_cambio #logo2{
+    visibility: hidden;
+
+}
+#logo2{
+    transition: 0.4s;
+    margin-top: 25px;
+    margin-left: 5%;
+    background-image: url(./img/lotus_lleno.png);
+    visibility:visible;
+    
+}
+.scroll_cambio header{
+    color:#ca38a5;
+    padding: 2%;
+}
+
+.exitLogin{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+.exitLogin:hover{
+    color:#ca38a5;
+}
+.exitRegister{
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+.fa-xing:hover{
+    color: #38ca4e;
+    cursor: pointer;
+}
+footer{
+    background-image: linear-gradient(rgba(242, 174, 105, 0.742), rgb(59, 33, 6));
+   
+  }
+   .boton_compra{
+    background-color:transparent;
+    color: white;
+
+    
+  } 
+
+  .card_timer{
+    width: 7rem;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-bottom: 20px double #0e58f9cb;
+    border-right: 3px solid#ca38a5;
+    border-radius: 50%;
+    border-top: 20px double #0e58f9cb;
+  }
+  .card_categoria{
+    width: 10rem;
+    height: 4rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border: 0px;
+    background-position: 0% 100px;
+    background-size: 0% 3px;
+    transition: 3s;
+    border-bottom: 10px solid #0e58f9cb;
+    border-bottom-style: groove;
+    box-shadow: 2px 5px 2px #0e58f9cb;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+  .categorias{
+    background-image: repeating-linear-gradient(0deg,white,blue 50%,white);
+  }
+  .fondo_color{
+    background-image: repeating-linear-gradient(0deg,white,blue 50%,white);
+  }
+  .card_categoria:hover{
+    background-color:#ca38a5;
+  }
+
+  .nav-pills .nav-link {
+    background: 0 0;
+    border: 0;
+    border-radius: 0.50rem;
+    color: rgb(247, 177, 107);
+  }
+
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #ca38a5;
+    background-color: #0e58f9cb;
+  }
+
+ .boton_productos{
+    width: 15rem;
+    position:fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1;
+    border-radius:20%;
+
+} 
+
+
+.card-title{
+    border-bottom-color: #ca38a5;
+}
