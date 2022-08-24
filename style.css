@@ -190,7 +190,7 @@ footer{
     border-top: 20px double #0e58f9cb;
   }
   .card_categoria{
-    width: 10rem;
+    width: 15rem;
     height: 4rem;
     display: flex;
     justify-content:center;
@@ -204,6 +204,7 @@ footer{
     box-shadow: 2px 5px 2px #0e58f9cb;
     border-radius: 40px;
     cursor: pointer;
+    background: transparent;
   }
   .categorias{
     background-image: repeating-linear-gradient(0deg,white,blue 50%,white);
