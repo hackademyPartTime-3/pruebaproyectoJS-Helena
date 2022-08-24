@@ -109,11 +109,12 @@ conversionArray.forEach(elemento=>{//llamar la variable donde tenemos las catego
     // ahora con el inner hacemos que se vea en la web el div con las class que hemos anadido
 
     col.innerHTML= `
-    <div class="card-body card_categoria">
+    <div class="card card_categoria">
     <a href="./${elemento}.html"class="text-decoration-none text-reset"><h5 class="card-title m-0 p-0">${elemento}</h5></a> 
   </div>
     
     `
+    // -------------- habia card-body, una clase de boostrap que le daba el tamaño maximo, he dejado solo card -------
 // hacer que sea visible en la pagina web
 setCategorias.appendChild(col);
 })
